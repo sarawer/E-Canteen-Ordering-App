@@ -221,8 +221,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
+<<<<<<< HEAD
 For support, email your-email@example.com or create an issue in the repository.
 
 ---
 
 **Note**: This is a demo project for educational purposes. For production use, additional security measures, payment gateway integration, and server-side components would be required.
+=======
+For support, email sarawermd@gmail.com or create an issue in the repository.
+
+---
+
+**Note**: This is a demo project for educational purposes. For production use, additional security measures, payment gateway integration, and server-side components would be required.
+>>>>>>> 2ef224026281b0b79cb363637df375e4d4c3cfe6
