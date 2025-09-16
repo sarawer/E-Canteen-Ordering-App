@@ -182,7 +182,29 @@ The app uses Room database which automatically creates tables on first run. No m
 
 ## 📱 Screenshots
 
-*Screenshots of key features would be added here*
+### Welcome & Authentication
+<div align="center">
+  <img src="screenshots/0.jpg" alt="Welcome Screen" width="200"/>
+  <img src="screenshots/1.jpg" alt="Login Screen" width="200"/>
+  <img src="screenshots/2.jpg" alt="Registration Screen" width="200"/>
+</div>
+
+### Student Interface
+<div align="center">
+  <img src="screenshots/11.jpg" alt="Student Home" width="200"/>
+  <img src="screenshots/3.jpg" alt="Student Home" width="200"/>
+  <img src="screenshots/4.jpg" alt="Food Menu" width="200"/>
+  <img src="screenshots/6.jpg" alt="Cart" width="200"/>
+</div>
+
+### Admin Dashboard
+<div align="center">
+  <img src="screenshots/7.jpg" alt="Admin Dashboard" width="150"/>
+  <img src="screenshots/12.jpg" alt="Sales Report" width="150"/>
+  <img src="screenshots/8.jpg" alt="Payment Options" width="150"/>
+  <img src="screenshots/9.jpg" alt="Order Success" width="150"/>
+  <img src="screenshots/10.jpg" alt="Order Tracking" width="150"/>
+</div>
 
 ## 🧪 Testing
 
