@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Brand Colors -->
+    <color name="primary">#FF6F3C</color>
+    <color name="primary_dark">#E65F30</color>
+    <color name="accent">#FF5722</color>
+    <color name="accent_light">#FF8A65</color>
+    <color name="primary_tint">#1AFF6F3C</color>
+    
+    <!-- Background Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="background_light">#F8F9FA</color>
+    <color name="background_gray">#ECEFF1</color>
+    <color name="surface">#FFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="text_dark">#212121</color>
+    <color name="text_medium">#424242</color>
+    <color name="text_gray">#757575</color>
+    <color name="text_light_gray">#9E9E9E</color>
+    
+    <!-- Supporting Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FF9800</color>
+    <color name="error">#F44336</color>
+    <color name="info">#2196F3</color>
+    
+    <!-- Legacy (keep for compatibility) -->
+    <color name="primary_red">#FF5722</color>
+    <color name="orange">#FF9800</color>
+    <color name="green">#4CAF50</color>
+    <color name="black">#212121</color>
+    <color name="light_border">#E0E0E0</color>
+    <color name="divider">#EEEEEE</color>
+</resources>

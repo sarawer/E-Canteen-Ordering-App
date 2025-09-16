@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ECanteenOrderingApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Global button tint to dark brown -->
+        <item name="colorPrimary">#3C2F2F</item>
+        <item name="colorPrimaryContainer">#3C2F2F</item>
+        <item name="colorSecondary">#3C2F2F</item>
+        <item name="colorSecondaryContainer">#3C2F2F</item>
+        <!-- MaterialButton default tint -->
+        <item name="materialButtonStyle">@style/AppButtonStyle</item>
+    </style>
+
+    <style name="AppButtonStyle" parent="Widget.Material3.Button">
+        <item name="backgroundTint">#3C2F2F</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Theme.ECanteenOrderingApp" parent="Base.Theme.ECanteenOrderingApp" />
+</resources>

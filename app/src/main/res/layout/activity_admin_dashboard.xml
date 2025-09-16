@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="24dp"
+        android:paddingTop="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dashboard_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:divider="@color/divider"
+            android:showDividers="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/bg_section_rect"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="🧾 View Orders"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_dark" />
+
+                <Button
+                    android:id="@+id/btn_orders"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/open"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_primary" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/bg_section_rect"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="🍽 Manage Menu"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_dark" />
+
+                <Button
+                    android:id="@+id/btn_manage_menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/open"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_primary" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/bg_section_rect"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="📊 Sales Report"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_dark" />
+
+                <Button
+                    android:id="@+id/btn_reports"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/open"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_primary" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/bg_section_rect"
+                android:padding="16dp"
+                android:layout_marginBottom="24dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="🤖 AI Suggestion"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_dark" />
+
+                <Button
+                    android:id="@+id/btn_ai_suggestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Open"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_primary" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_admin_logout"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/sign_out"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/button_primary" />
+
+    </LinearLayout>
+
+</ScrollView>

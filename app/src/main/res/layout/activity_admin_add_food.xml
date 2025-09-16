@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Food Item"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/text_dark"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food Image (drawable name or pick from gallery)" />
+
+        <ImageView
+            android:id="@+id/iv_preview"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/form_background"
+            android:src="@drawable/burger_combo" />
+
+        <Button
+            android:id="@+id/btn_pick_image"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Pick from Gallery"
+            android:textAllCaps="false"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/button_primary"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/et_image_ref"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/input_background"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:hint="e.g. burger_combo or content://..." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food Name"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/input_background"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:hint="Enter name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/et_desc"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@drawable/input_background"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:gravity="top|start"
+            android:hint="Enter description" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price (BDT)"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/et_price"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/input_background"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:inputType="number"
+            android:hint="e.g. 120" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/button_primary" />
+
+    </LinearLayout>
+</ScrollView>

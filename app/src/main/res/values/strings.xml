@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">E-Canteen Ordering app</string>
+
+    <!-- General -->
+    <string name="open">Open</string>
+    <string name="sign_out">Sign Out</string>
+
+    <!-- Welcome -->
+    <string name="welcome_title">Welcome to e-canteen</string>
+    <string name="welcome_subtitle">Order your favorite meals in just a few taps.</string>
+    <string name="get_started">Get Started</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Admin Dashboard</string>
+    <string name="view_orders">View Orders</string>
+    <string name="manage_menu">Manage Menu</string>
+    <string name="sales_report">Sales Report</string>
+    <string name="ai_suggestion">AI Suggestion</string>
+
+    <!-- Sales Report -->
+    <string name="select_date">Select Date</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="pick_range">Pick Range</string>
+    <string name="selected_prefix">Selected: %1$s</string>
+    <string name="sr_title">Sales Report</string>
+    <string name="export">Export</string>
+    <string name="total_orders">Total Orders</string>
+    <string name="total_revenue">Total Revenue</string>
+    <string name="items_sold">Items Sold</string>
+    <string name="no_sales_for_date">No sales for the selected date</string>
+
+    <!-- Order Detail -->
+    <string name="student_name_label">Student name: %1$s</string>
+    <string name="table_number_label">Table number: %1$s</string>
+    <string name="estimate_label">Estimated delivery time: %1$s</string>
+    <string name="status">Status</string>
+    <string name="confirm_order">Confirm Order</string>
+    <string name="preparing_food">Preparing Food</string>
+    <string name="out_for_delivery">Out for Delivery</string>
+</resources>
