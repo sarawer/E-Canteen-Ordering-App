@@ -69,34 +69,58 @@ implementation "com.google.android.material:material:1.9.0"
 ## 📁 Project Structure
 
 ```
-app/
-├── src/main/
-│   ├── java/com/example/e_canteenorderingapp/
-│   │   ├── admin/                    # Admin-specific activities
-│   │   │   ├── AdminDashboardActivity.java
-│   │   │   ├── AdminHomeActivity.java
-│   │   │   ├── AdminOrdersActivity.java
-│   │   │   ├── AdminOrderDetailActivity.java
-│   │   │   ├── AdminSalesReportActivity.java
-│   │   │   └── AdminAiSuggestionActivity.java
-│   │   ├── student/                  # Student-specific activities
-│   │   │   ├── StudentHomeActivity.java
-│   │   │   ├── ProfileActivity.java
-│   │   │   └── CartActivity.java
-│   │   ├── data/                     # Database entities and DAOs
-│   │   │   ├── AppDatabase.java
-│   │   │   ├── FoodDao.java
-│   │   │   ├── CartDao.java
-│   │   │   ├── OrderDao.java
-│   │   │   └── OrderStatusDao.java
-│   │   ├── util/                     # Utility classes
-│   │   │   └── FormatUtils.java
-│   │   └── [Other Activities]
-│   └── res/                          # Resources
-│       ├── layout/                   # XML layouts
-│       ├── drawable/                 # Images and drawables
-│       ├── values/                   # Strings, colors, themes
-│       └── assets/                   # Video files
+E-Canteen-Ordering-App/
+├── app/
+│   ├── src/main/
+│   │   ├── AndroidManifest.xml
+│   │   ├── java/com/example/e_canteenorderingapp/
+│   │   │   ├── WelcomeActivity.java
+│   │   │   ├── OrderTrackingActivity.java
+│   │   │   ├── PaymentActivity.java
+│   │   │   ├── admin/
+│   │   │   │   ├── AdminHomeActivity.java
+│   │   │   │   ├── AdminDashboardActivity.java
+│   │   │   │   ├── AdminOrdersActivity.java
+│   │   │   │   ├── AdminOrderDetailActivity.java
+│   │   │   │   ├── AdminSalesReportActivity.java
+│   │   │   │   ├── AdminAiSuggestionActivity.java
+│   │   │   │   ├── AdminOrdersAdapter.java
+│   │   │   │   └── OrderItemsAdapter.java
+│   │   │   ├── student/
+│   │   │   │   ├── StudentHomeActivity.java
+│   │   │   │   ├── ProfileActivity.java
+│   │   │   │   └── CartActivity.java
+│   │   │   ├── data/
+│   │   │   │   ├── AppDatabase.java
+│   │   │   │   ├── Order.java
+│   │   │   │   ├── OrderItem.java
+│   │   │   │   └── OrderDao.java
+│   │   │   └── util/
+│   │   │       └── FormatUtils.java
+│   │   └── res/
+│   │       ├── layout/
+│   │       │   ├── activity_welcome.xml
+│   │       │   ├── activity_order_tracking.xml
+│   │       │   ├── activity_admin_dashboard.xml
+│   │       │   ├── activity_admin_orders.xml
+│   │       │   ├── item_admin_order.xml
+│   │       │   ├── activity_admin_order_detail.xml
+│   │       │   ├── item_admin_order_detail_line.xml
+│   │       │   ├── activity_admin_sales_report.xml
+│   │       │   └── activity_admin_ai_suggestion.xml
+│   │       ├── values/
+│   │       │   ├── colors.xml
+│   │       │   ├── strings.xml
+│   │       │   └── themes.xml
+│   │       └── values-night/
+│   │           └── themes.xml
+│   └── build.gradle.kts
+├── screenshots/
+├── build.gradle.kts
+├── settings.gradle.kts
+├── gradle/
+├── gradlew
+└── gradlew.bat
 ```
 
 ## 🚀 Getting Started
