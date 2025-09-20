@@ -1,17 +1,22 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.ECanteenOrderingApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Global button tint to dark brown -->
-        <item name="colorPrimary">#3C2F2F</item>
-        <item name="colorPrimaryContainer">#3C2F2F</item>
-        <item name="colorSecondary">#3C2F2F</item>
-        <item name="colorSecondaryContainer">#3C2F2F</item>
-        <!-- MaterialButton default tint -->
+        <!-- App primary (affects nav bar, toolbar, etc.) -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryContainer">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/primary</item>
+        <item name="colorSecondaryContainer">@color/primary</item>
+        
+        <!-- Status bar: white background with dark icons -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- MaterialButton default tint decoupled from primary -->
         <item name="materialButtonStyle">@style/AppButtonStyle</item>
     </style>
 
     <style name="AppButtonStyle" parent="Widget.Material3.Button">
-        <item name="backgroundTint">#3C2F2F</item>
+        <item name="backgroundTint">@color/brand_brown</item>
         <item name="cornerRadius">12dp</item>
         <item name="android:textColor">@android:color/white</item>
     </style>

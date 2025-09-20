@@ -15,6 +15,7 @@ public class OrderTrackingActivity extends AppCompatActivity {
     private TextView tvStatusDelivered, tvStatusText, stepConfirmed, stepPreparing, stepOutForDelivery, stepDelivered;
     private android.widget.ProgressBar progressTracking;
     private Button btnViewReceipt, btnOrderAgain;
+    private TextView btnBack;
     
     private String orderNumber = "";
     private double totalAmount = 0.0;
@@ -73,7 +74,11 @@ public class OrderTrackingActivity extends AppCompatActivity {
         stepDelivered = findViewById(R.id.step_delivered);
         progressTracking = findViewById(R.id.progress_tracking);
         
-
+        // Back button (top-left)
+        btnBack = findViewById(R.id.btn_back);
+        
+        // Optional receipt button may not exist in current layout
+        btnViewReceipt = findViewById(getResources().getIdentifier("btn_view_receipt", "id", getPackageName()));
         
         btnOrderAgain = findViewById(R.id.btn_order_again);
         if (btnOrderAgain == null) throw new Exception("btn_order_again not found");
@@ -163,11 +168,16 @@ public class OrderTrackingActivity extends AppCompatActivity {
         try {
             Log.d(TAG, "Setting up click listeners");
             
-            btnViewReceipt.setOnClickListener(v -> {
-                Log.d(TAG, "View Receipt button clicked");
-                // For demo, show a toast message
-                Toast.makeText(this, "Receipt feature coming soon!", Toast.LENGTH_SHORT).show();
-            });
+            if (btnViewReceipt != null) {
+                btnViewReceipt.setOnClickListener(v -> {
+                    Log.d(TAG, "View Receipt button clicked");
+                    Toast.makeText(this, "Receipt feature coming soon!", Toast.LENGTH_SHORT).show();
+                });
+            }
+            
+            if (btnBack != null) {
+                btnBack.setOnClickListener(v -> finish());
+            }
             
             btnOrderAgain.setOnClickListener(v -> {
                 Log.d(TAG, "Order Again button clicked");

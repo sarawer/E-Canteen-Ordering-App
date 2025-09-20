@@ -7,6 +7,9 @@
     <color name="accent_light">#FF8A65</color>
     <color name="primary_tint">#1AFF6F3C</color>
     
+    <!-- App-wide button brand color (decoupled from primary) -->
+    <color name="brand_brown">#3C2F2F</color>
+    
     <!-- Background Colors -->
     <color name="white">#FFFFFF</color>
     <color name="background_light">#F8F9FA</color>
